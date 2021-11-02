@@ -145,7 +145,7 @@ img {
   }
 
   div>* {
-    font-size: 1.4em;
+    font-size: 0.8em;
   }
   
   h1 {
@@ -161,6 +161,12 @@ img {
   #lezioni .row {
     margin-top: 0px;
     background-color: #F2F2CD;
+    width: 100%;
+  }
+  
+  #lezioni .row img {
+    height: 100px;
+    padding: 30px;
   }
 
   #lezioni .row > .left {
@@ -182,7 +188,13 @@ img {
   }
 
   #steps>.row{
+    width: 100%;
     margin-top: 0;
+  }
+
+  #steps .row img {
+    height: 100px;
+
   }
 
   /* #steps>.row h1 {
@@ -210,10 +222,12 @@ img {
 
   #why>.row {
     margin-top: 0;
+    width: 100%;
     display: inline-block;
   }
 
   #why .row img {
+    height: 60px;
     padding: 30px;
   }
 
