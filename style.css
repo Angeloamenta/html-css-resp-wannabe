@@ -117,8 +117,8 @@ img {
   /* come funziona */
 
   body #steps {
-    clear: both;
-    display: table;
+    /* clear: both; */
+    display: inline-block;
   }
 
   #steps>.row{
@@ -145,7 +145,7 @@ img {
 
   body #why{
     background-color: #F2F2CD;
-    display: table;
+    display: inline-block;
   }
 
   #why>.row {
