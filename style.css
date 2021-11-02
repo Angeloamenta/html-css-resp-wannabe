@@ -76,7 +76,10 @@ img {
 /* esercizio */
 
 @media screen and (max-width:420px) {
+
+  /* lezioni */
   #lezioni .row {
+    margin-top: 0px;
     background-color: #F2F2CD;
   }
 
@@ -91,4 +94,32 @@ img {
     width: 100%;
     background-color: #F2F2CD;
   }
+  /* come funziona */
+
+  body #steps {
+    clear: both;
+    display: table;
+  }
+
+  #steps>.row{
+    margin-top: 0;
+  }
+
+  #steps>.row h1 {
+    font-size: 3em;
+  }
+
+  #steps>.row h3 {
+    font-size: 2em;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
 }
