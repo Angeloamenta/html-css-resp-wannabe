@@ -81,21 +81,21 @@ img {
     margin: 0;
   }
 
-  h3 {
+  /* h3 {
     font-size: 2em;
-  }
+  } */
 
   hr {
     background-color: black;
   }
 
-  /* div>* {
-    font-size: 1em;
-  } */
+  div>* {
+    font-size: 1.4em;
+  }
 
   /* lezioni */
   #lezioni h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   #lezioni .row {
@@ -125,13 +125,13 @@ img {
     margin-top: 0;
   }
 
-  #steps>.row h1 {
+  /* #steps>.row h1 {
     font-size: 3em;
-  }
+  } */
 
-  #steps>.row h3 {
+  /* #steps>.row h3 {
     font-size: 2em;
-  }
+  } */
 
   #steps .row>.left,
   #steps .row>.central,
@@ -152,7 +152,7 @@ img {
     margin-top: 0;
   }
 
-  #why h1 {
+  /* #why h1 {
     font-size: 3em;
-  }
+  } */
 }
