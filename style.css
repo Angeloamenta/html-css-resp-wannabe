@@ -74,7 +74,61 @@ img {
 
 
 /* esercizio */
+/* tablet */
+@media screen and (max-width:760px) {
+    hr {
+      display: none;
+    }
+  
+    div>* {
+      font-size: 1.2em;
+    }
 
+    h1{
+      font-size: 2em;
+    }
+  /* lezioni */
+  body #steps {
+    display: inline-block;
+  }
+
+   #steps .row>.left {
+     width: 100%;
+   }
+
+   #steps .row>.central,
+   #steps .row>.right {
+     width: 50%;
+     margin-top: 20px;
+   }
+
+
+   /* why */
+
+   body #why {
+     display: inline-block;
+   }
+
+   #why .row {
+     display: flex;
+     align-items: center;
+     margin-top: 0;
+   }
+
+   #why .row img {
+     height: 120px;
+     padding: 10px;
+   }
+
+   #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: auto;
+    margin-top: 0;
+  }
+}
+
+/* mobile */
 @media screen and (max-width:420px) {
 
   body {
@@ -87,6 +141,7 @@ img {
 
   hr {
     background-color: black;
+    display: block;
   }
 
   div>* {
@@ -155,6 +210,11 @@ img {
 
   #why>.row {
     margin-top: 0;
+    display: inline-block;
+  }
+
+  #why .row img {
+    padding: 30px;
   }
 
   #why .row>.first,
@@ -167,3 +227,6 @@ img {
     font-size: 3em;
   } */
 }
+
+/* tablet */
+
