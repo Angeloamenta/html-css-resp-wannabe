@@ -71,3 +71,24 @@ img {
 .clear {
   clear: both;
 }
+
+
+/* esercizio */
+
+@media screen and (max-width:420px) {
+  #lezioni .row {
+    background-color: #F2F2CD;
+  }
+
+  #lezioni .row > .left {
+    display: block;
+    width: 100%;
+    background-color: #F2F2CD;
+  }
+
+  #lezioni .row > .right {
+    display: block;
+    width: 100%;
+    background-color: #F2F2CD;
+  }
+}
